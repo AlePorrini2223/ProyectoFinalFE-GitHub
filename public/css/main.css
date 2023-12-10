@@ -1,0 +1,474 @@
+/*------GENERAL--------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Cormorant+Garamond&family=Ms+Madi&family=PT+Serif&family=Playfair+Display&family=Poiret+One&family=Tilt+Prism&family=Ubuntu:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+/**HEADER**/
+
+header {
+    background-image: url(/public/img/enamorate-de-tu-sonrisa-y-los-demas-no-podran-resistirse.jpg);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.odonto-nav {
+    background-color: #314752;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;      
+}
+
+.logo-porrini {
+    height: 180px;
+    padding: 10px 0px 0px 15px;
+    }
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    width: 100%;
+}
+
+.nav-link {
+        display: flex;
+        justify-content: center;
+        padding: .5rem 1rem;
+}
+
+.nav-item:hover {
+        transform: scale(1.1);
+        transition: all 1s ease;
+}
+
+.navbar-toggler {
+    background-image: url(/public/img/isotipo.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 55px;
+}
+
+/**MAIN**/
+
+main {
+    background-image: url(/public/img/marmol-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgb(56, 56, 56);
+    padding: 40px 0px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.txt-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 25px 110px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+/**FOOTER**/
+
+.odonto_footer {
+    background-color: #314752;
+    text-align: center;
+}
+
+.h3-footer {
+    padding: 60px 0px 10px 0px;
+    color: rgb(236, 236, 236);
+}
+
+.input-box {
+    width: 600px;
+}
+
+.form-control {
+    padding: 10px;
+    background-color: rgb(221, 221, 238);
+}
+
+#input-text {
+    height: 100px;
+    align-items: start;
+}
+
+.btn-primary {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(154, 154, 231);
+    color:black;
+    border-color: #314752;
+}
+
+.wsp-card {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wsp-icon { 
+    width: 100%;
+    height: 70px;
+    padding-right: 40px;
+}
+
+.footer-text {
+    color: white;
+    padding: 25px;
+    }
+
+
+/*------HOME--------*/
+
+.bienvenida {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.porrini-sonrisas {
+    height: 450px;
+    width: 100%;
+    padding-bottom: 70px;
+}
+
+.instr-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    color: rgb(104, 104, 104);
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.odonto-trata {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.title-trat {
+    color: rgb(56, 56, 56);
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px 0px 4px 0px;
+}
+
+.trat-img {
+    height: 300px;
+    width: 450px;
+    padding: 20px;
+    background-color: #314752;
+}
+
+.trat-img:hover {
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+.h3-trat {
+    color: rgb(53, 53, 53);
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.banner-final {
+    background-color: #314752;
+}
+
+.banner-porrini {
+    margin: 50px 0px 10px 0px;
+    width: 100%;
+    height: 300px;
+    background-color: #314752;
+}
+
+
+/*------ABOUT--------*/
+
+.about {
+    background-image: url(/public/img/consultorio1.jpg);
+    background-position:center;
+}
+
+.vintage-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+figure.odonto-vintage {
+    height: 500px;
+}
+
+/*------EQUIPO--------*/
+
+.equipo {
+    background-image: url(/public/img/odontoprofesionales.jpg);
+}
+
+.card-box {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.card {
+    background-color: #a5b4bb;
+}
+
+.card-img-top {
+    padding: 15px;
+}
+
+
+/*------PREPAGAS Y O.SOCIALES--------*/
+
+.os-prep {
+    background-image: url(/public/img/prepaga.jpg);
+    background-position: center;
+} 
+
+#carousel-box {
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+}
+
+#carouselExampleFade {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.os-img { 
+    width: 550px;
+}
+
+
+/*------CONTACT--------*/
+
+.contact {
+    background-image: url(/public/img/banner2.jpeg);
+    background-position:top;
+    background-size: cover;
+    background-color: #314752;
+    height: 323px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------Celulares-------------------*/
+
+@media (max-width: 480) {
+}
+
+@media (min-width: 481px) and (max-width: 850px) {
+/*------HOME--------*/    
+    .banner-porrini {
+        display: none;
+    }
+    header { 
+        height: 300px;
+    }
+    .odonto-family {
+        height: 250px;
+    }
+    .instr-box { 
+        height: 220px;
+    }
+/*------ABOUT--------*/
+    .banner-porrini2 {
+    width: 100%;
+    }
+/*------PREPAGAS Y O.S--------*/ 
+    .carousel-inner {
+        height: 300px;
+        display: flex;
+        align-items: center;
+    } 
+    #carouselExampleFade {
+        width: 100%;
+    }
+}
+
+@media (min-width: 821px) {
+/*------HOME--------*/  
+    .odonto-family {
+        height: 330px;
+    }
+    .instr-box { 
+        height: 320px;
+    }
+} 
+
+@media (min-width: 851px) {
+/*------ABOUT--------*/ 
+    .banner-porrini2 {
+        display: none;
+    }
+/*------PREPAGAS Y O.S--------*/ 
+    .carousel-inner {
+        height: 400px;
+        display: flex;
+        align-items: center;
+    } 
+    #carouselExampleFade {
+        width: 90%;
+    }
+    .os-img { 
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+/*------CONTACTO--------*/    
+    .odonto-nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+/*------HOME--------*/      
+    .porrini-sonrisas {
+        display: none;
+    }
+/*------ABOUT--------*/
+    .card-box {
+        display: flex;
+        justify-content: space-evenly;
+    }
+/*------PREPAGAS Y O.S--------*/ 
+    .os-img { 
+        width: 100%;
+    }
+/*------CONTACTO--------*/
+    .input-box { 
+        width: 440px;
+    }
+}
+
+
+/*---------Tablet y Pantallas pequeñas-----------*/
+
+@media (min-width: 1024px) {
+/*------HOME--------*/  
+    .odonto-family {
+        display: none;
+    }
+/*------PREPAGAS Y O.S--------*/ 
+    .carousel-inner {
+        height: 500px;
+        display: flex;
+        align-items: center;
+    } 
+    #carouselExampleFade {
+        width: 80%;
+    }
+    .os-img { 
+        width: 100%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+/*------PREPAGAS Y O.S--------*/ 
+.carousel-inner {
+    height: 500px;
+    display: flex;
+    align-items: center;
+} 
+#carouselExampleFade {
+    width: 70%;
+}
+.os-img { 
+    width: 100%;
+}    
+}
+
+
+/*--------- Pantallas grandes-----------*/
+
+@media (min-width: 1440px) {
+/*------PREPAGAS Y O.S--------*/ 
+.carousel-inner {
+    display: flex;
+    align-items: center;
+} 
+#carouselExampleFade {
+    width: 50%;
+}
+.os-img { 
+    width: 100%;
+}  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
